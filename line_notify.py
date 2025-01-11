@@ -9,7 +9,7 @@ def line_notify(message):
     :param message:
     :return:
     LINE Notify APIを使用してメッセージを送信
-        最後は自分のAPIを取得するようにするとプログラムの中でheaderから処理が実行され自分のLINEにプログラムが実行される。"""
+        最後は自分のAPIを取得するようにプログラムの中でheaderから処理が実行され自分のLINEにプログラムが実行される。"""
 
     load_dotenv()
     line_notify_api = 'https://notify-api.line.me/api/notify'
