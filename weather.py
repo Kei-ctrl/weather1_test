@@ -8,7 +8,7 @@ TOKYO_CODE = 130000
 
 def get_weather(code):
 
-    #３日間(最大)の天気予報を取得
+    #３日間(最大)の天気予報取得
     api_url = f"https://www.jma.go.jp/bosai/forecast/data/forecast/{code}.json"
     weather_data = requests.get(api_url).json()
 
